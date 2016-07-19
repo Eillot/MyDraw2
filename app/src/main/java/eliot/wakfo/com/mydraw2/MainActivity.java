@@ -13,14 +13,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView( new CircleView(this));
-        setContentView(R.layout.activity_main);
-
+        setContentView( new CircleView(this));
+        
     }
-
-    public void btnColorMatrix(View view) {
-        startActivity(new Intent(this, ColorMatrix.class));
-    }
-
 
 }
